@@ -1,0 +1,20 @@
+Dhruti@LAPTOP-3OC92UM5 MINGW64 ~
+$
+curl -s https://api.github.com/repos/YOUR-USERNAME/mcino-Introduction-to-Git-and-GitHub | grep -E '"full_name"|"fork"|"parent"' >> forked-repo
+^[[200~
+bash: $'\E[200~': command not found
+
+Dhruti@LAPTOP-3OC92UM5 MINGW64 ~
+$ echo 'curl -s https://api.github.com/repos/YOUR-USERNAME/mcino-Introduction-to-Git-and-GitHub' > forked-repo
+
+Dhruti@LAPTOP-3OC92UM5 MINGW64 ~
+$
+
+Dhruti@LAPTOP-3OC92UM5 MINGW64 ~
+$ curl -s https://api.github.com/repos/YOUR-USERNAME/mcino-Introduction-to-Git-and-GitHub | grep -E '"full_name"|"fork"|"parent"' >> forked-repo
+
+Dhruti@LAPTOP-3OC92UM5 MINGW64 ~
+$
+
+Dhruti@LAPTOP-3OC92UM5 MINGW64 ~
+$
